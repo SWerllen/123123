@@ -1,0 +1,91 @@
+20/10/30 15:12:28 INFO client.RMProxy: Connecting to ResourceManager at kwang-master/192.168.219.139:8032
+20/10/30 15:12:29 INFO input.FileInputFormat: Total input paths to process : 1
+20/10/30 15:12:29 INFO mapreduce.JobSubmitter: number of splits:3
+20/10/30 15:12:29 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1603972407487_0369
+20/10/30 15:12:29 INFO impl.YarnClientImpl: Submitted application application_1603972407487_0369
+20/10/30 15:12:29 INFO mapreduce.Job: The url to track the job: http://kwang-master:8088/proxy/application_1603972407487_0369/
+20/10/30 15:12:29 INFO mapreduce.Job: Running job: job_1603972407487_0369
+20/10/30 15:12:35 INFO mapreduce.Job: Job job_1603972407487_0369 running in uber mode : false
+20/10/30 15:12:35 INFO mapreduce.Job:  map 0% reduce 0%
+20/10/30 15:12:45 INFO mapreduce.Job:  map 4% reduce 0%
+20/10/30 15:12:46 INFO mapreduce.Job:  map 15% reduce 0%
+20/10/30 15:12:48 INFO mapreduce.Job:  map 18% reduce 0%
+20/10/30 15:12:49 INFO mapreduce.Job:  map 26% reduce 0%
+20/10/30 15:12:52 INFO mapreduce.Job:  map 27% reduce 0%
+20/10/30 15:12:54 INFO mapreduce.Job:  map 30% reduce 0%
+20/10/30 15:12:55 INFO mapreduce.Job:  map 37% reduce 0%
+20/10/30 15:12:58 INFO mapreduce.Job:  map 39% reduce 0%
+20/10/30 15:13:00 INFO mapreduce.Job:  map 47% reduce 0%
+20/10/30 15:13:01 INFO mapreduce.Job:  map 49% reduce 0%
+20/10/30 15:13:04 INFO mapreduce.Job:  map 61% reduce 0%
+20/10/30 15:13:06 INFO mapreduce.Job:  map 67% reduce 0%
+20/10/30 15:13:09 INFO mapreduce.Job:  map 68% reduce 0%
+20/10/30 15:13:12 INFO mapreduce.Job:  map 72% reduce 0%
+20/10/30 15:13:16 INFO mapreduce.Job:  map 74% reduce 0%
+20/10/30 15:13:18 INFO mapreduce.Job:  map 74% reduce 11%
+20/10/30 15:13:19 INFO mapreduce.Job:  map 78% reduce 11%
+20/10/30 15:13:22 INFO mapreduce.Job:  map 89% reduce 11%
+20/10/30 15:13:23 INFO mapreduce.Job:  map 100% reduce 11%
+20/10/30 15:13:24 INFO mapreduce.Job:  map 100% reduce 100%
+20/10/30 15:13:24 INFO mapreduce.Job: Job job_1603972407487_0369 completed successfully
+20/10/30 15:13:24 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=20357482
+		FILE: Number of bytes written=23690129
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=349184345
+		HDFS: Number of bytes written=792597
+		HDFS: Number of read operations=12
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=4
+		Launched reduce tasks=1
+		Data-local map tasks=4
+		Total time spent by all maps in occupied slots (ms)=134250
+		Total time spent by all reduces in occupied slots (ms)=16012
+		Total time spent by all map tasks (ms)=134250
+		Total time spent by all reduce tasks (ms)=16012
+		Total vcore-milliseconds taken by all map tasks=134250
+		Total vcore-milliseconds taken by all reduce tasks=16012
+		Total megabyte-milliseconds taken by all map tasks=137472000
+		Total megabyte-milliseconds taken by all reduce tasks=16396288
+	Map-Reduce Framework
+		Map input records=7922663
+		Map output records=57614588
+		Map output bytes=546190858
+		Map output materialized bytes=2862954
+		Input split bytes=345
+		Combine input records=58823064
+		Combine output records=1406116
+		Reduce input groups=65880
+		Reduce shuffle bytes=2862954
+		Reduce input records=197640
+		Reduce output records=65880
+		Spilled Records=1603756
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=1324
+		CPU time spent (ms)=119260
+		Physical memory (bytes) snapshot=992411648
+		Virtual memory (bytes) snapshot=7868973056
+		Total committed heap usage (bytes)=781189120
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=349184000
+	File Output Format Counters 
+		Bytes Written=792597
+
+real	0m56.732s
+user	0m3.701s
+sys	0m0.265s

@@ -1,0 +1,7 @@
+20/10/31 03:47:07 INFO client.RMProxy: Connecting to ResourceManager at kwang-master/192.168.219.139:8032
+20/10/31 03:47:07 INFO input.FileInputFormat: Total input paths to process : 1
+20/10/31 03:47:07 INFO mapreduce.JobSubmitter: number of splits:7
+20/10/31 03:47:07 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1603972407487_0869
+20/10/31 03:47:07 INFO impl.YarnClientImpl: Submitted application application_1603972407487_0869
+20/10/31 03:47:07 INFO mapreduce.Job: The url to track the job: http://kwang-master:8088/proxy/application_1603972407487_0869/
+20/10/31 03:47:07 INFO mapreduce.Job: Running job: job_1603972407487_0869

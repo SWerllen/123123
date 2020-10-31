@@ -1,0 +1,92 @@
+20/10/30 18:50:43 INFO client.RMProxy: Connecting to ResourceManager at kwang-master/192.168.219.139:8032
+20/10/30 18:50:44 INFO input.FileInputFormat: Total input paths to process : 1
+20/10/30 18:50:44 INFO mapreduce.JobSubmitter: number of splits:4
+20/10/30 18:50:44 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1603972407487_0549
+20/10/30 18:50:44 INFO impl.YarnClientImpl: Submitted application application_1603972407487_0549
+20/10/30 18:50:44 INFO mapreduce.Job: The url to track the job: http://kwang-master:8088/proxy/application_1603972407487_0549/
+20/10/30 18:50:44 INFO mapreduce.Job: Running job: job_1603972407487_0549
+20/10/30 18:50:49 INFO mapreduce.Job: Job job_1603972407487_0549 running in uber mode : false
+20/10/30 18:50:49 INFO mapreduce.Job:  map 0% reduce 0%
+20/10/30 18:51:01 INFO mapreduce.Job:  map 3% reduce 0%
+20/10/30 18:51:02 INFO mapreduce.Job:  map 12% reduce 0%
+20/10/30 18:51:07 INFO mapreduce.Job:  map 14% reduce 0%
+20/10/30 18:51:08 INFO mapreduce.Job:  map 22% reduce 0%
+20/10/30 18:51:16 INFO mapreduce.Job:  map 25% reduce 0%
+20/10/30 18:51:17 INFO mapreduce.Job:  map 32% reduce 0%
+20/10/30 18:51:22 INFO mapreduce.Job:  map 34% reduce 0%
+20/10/30 18:51:23 INFO mapreduce.Job:  map 41% reduce 0%
+20/10/30 18:51:26 INFO mapreduce.Job:  map 42% reduce 0%
+20/10/30 18:51:28 INFO mapreduce.Job:  map 43% reduce 0%
+20/10/30 18:51:29 INFO mapreduce.Job:  map 47% reduce 0%
+20/10/30 18:51:31 INFO mapreduce.Job:  map 49% reduce 0%
+20/10/30 18:51:32 INFO mapreduce.Job:  map 51% reduce 0%
+20/10/30 18:51:35 INFO mapreduce.Job:  map 53% reduce 0%
+20/10/30 18:51:37 INFO mapreduce.Job:  map 56% reduce 0%
+20/10/30 18:51:38 INFO mapreduce.Job:  map 61% reduce 0%
+20/10/30 18:51:41 INFO mapreduce.Job:  map 62% reduce 0%
+20/10/30 18:51:43 INFO mapreduce.Job:  map 64% reduce 0%
+20/10/30 18:51:44 INFO mapreduce.Job:  map 67% reduce 0%
+20/10/30 18:51:46 INFO mapreduce.Job:  map 83% reduce 0%
+20/10/30 18:51:47 INFO mapreduce.Job:  map 100% reduce 0%
+20/10/30 18:51:50 INFO mapreduce.Job:  map 100% reduce 100%
+20/10/30 18:51:51 INFO mapreduce.Job: Job job_1603972407487_0549 completed successfully
+20/10/30 18:51:51 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=30537951
+		FILE: Number of bytes written=34942353
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=537932236
+		HDFS: Number of bytes written=823688
+		HDFS: Number of read operations=15
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=4
+		Launched reduce tasks=1
+		Data-local map tasks=4
+		Total time spent by all maps in occupied slots (ms)=219643
+		Total time spent by all reduces in occupied slots (ms)=2208
+		Total time spent by all map tasks (ms)=219643
+		Total time spent by all reduce tasks (ms)=2208
+		Total vcore-milliseconds taken by all map tasks=219643
+		Total vcore-milliseconds taken by all reduce tasks=2208
+		Total megabyte-milliseconds taken by all map tasks=224914432
+		Total megabyte-milliseconds taken by all reduce tasks=2260992
+	Map-Reduce Framework
+		Map input records=12205341
+		Map output records=88756581
+		Map output bytes=841418280
+		Map output materialized bytes=3817272
+		Input split bytes=460
+		Combine input records=90601198
+		Combine output records=2108137
+		Reduce input groups=65880
+		Reduce shuffle bytes=3817272
+		Reduce input records=263520
+		Reduce output records=65880
+		Spilled Records=2371657
+		Shuffled Maps =4
+		Failed Shuffles=0
+		Merged Map outputs=4
+		GC time elapsed (ms)=2757
+		CPU time spent (ms)=192520
+		Physical memory (bytes) snapshot=1270923264
+		Virtual memory (bytes) snapshot=9841303552
+		Total committed heap usage (bytes)=978321408
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=537931776
+	File Output Format Counters 
+		Bytes Written=823688
+
+real	1m9.396s
+user	0m3.682s
+sys	0m0.282s
